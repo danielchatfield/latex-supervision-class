@@ -9,6 +9,16 @@ This is the successor of my [original supervision class][1]. The motivation for 
 
 The class extends the [exam document class][2] and thus supports most of its features.
 
+## Installation
+
+Git clone or download the package and then symlink it into the appropriate place (different depending on os and laTeX distibution). On osx with TeXlive running the following from the downloaded folder works (you may need to create that folder first).
+
+```shell
+ln -s $PWD ~/Library/texmf/tex/latex/local
+```
+
+Alternatively, put the `supervision.cls` file next to your document.
+
 ## Usage
 
 If the course will have several supervisions then create a `course.sty` (otherwise just put this at the top).
