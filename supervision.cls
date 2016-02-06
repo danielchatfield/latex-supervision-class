@@ -77,9 +77,9 @@
 \linespread{1.05}         % Palatino needs more leading (space between lines)
 
 
-% Add support for loading graphics from `figure` folder
+% Add support for loading graphics from `figures` folder
 % TODO should this be in a separate package?
-\graphicspath{ {./figure/} }
+\graphicspath{ {./figures/} }
 
 % Set the date to today
 \date{\today}
